@@ -6,7 +6,7 @@
 
 body {
 font-family: 'Playfair Display', serif;
-background: #F5F5F4;
+background: #fff9f5;
 }
 
 section {
@@ -48,4 +48,36 @@ button {
     border-radius: 15px;
     background-color: white;
     
+}
+
+.loginForm {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    width: 550px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-mudar {
+    
+    margin-left: 200px;
+    text-decoration: none;
+    color: #7a7a7a;
 }
