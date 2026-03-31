@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agendamentos</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="..//css/agendamento.css">
+</head>
+
+<body>
+    <header>
+        <div class="inicio">
+            <img src="../img/icone-coração-branco.png" alt="icone-logo-do-site" />
+            <h1>Controle Veterinário</h1>
+        </div>
+        <div class="meio">
+            <button>Não se trata de uma questão de...</button>
+            <button>Funcionalidades</button>
+            <button>Equipe</button>
+            <button>Conecte-se</button>
+        </div>
+        <button class="fim">Painel de controle do Acesso</button>
+    </header>
+    <main>
+        <h1>Agendamento de Consultas</h1>
+        <p class="subtitle">Gerencie todos os agendamentos da clínica</p>
+        <button class="btn-nova">🞧 Nova Consulta</button>
+
+        <!-- CONTAINER PRINCIPAL EM DUAS COLUNAS -->
+        <div class="container">
+
+            <!-- COLUNA ESQUERDA -->
+            <div>
+
+                <!-- DATA -->
+                <div class="card">
+                    <label>dados de</label><br>
+                    <input type="date" class="date-input" value="2024-03-23">
+                </div>
+
+                <!-- HORÁRIOS -->
+                <div class="card">
+                    <h2 style="margin-top:0;">Horários Disponíveis</h2>
+
+                    <div class="horarios-container">
+                        <div class="horario">08:00</div>
+                        <div class="horario">08:30</div>
+                        <div class="horario ocupado">09:00</div>
+                        <div class="horario">09:30</div>
+                        <div class="horario ocupado">10:00</div>
+                        <div class="horario ocupado">10:30</div>
+                        <div class="horario ocupado">11:00</div>
+                        <div class="horario">11:30</div>
+                        <div class="horario ocupado">14:00</div>
+                        <div class="horario">14:30</div>
+                        <div class="horario">15:00</div>
+                        <div class="horario">15:30</div>
+                        <div class="horario">16:00</div>
+                        <div class="horario">16:30</div>
+                        <div class="horario ocupado">17:00</div>
+                        <div class="horario">17:30</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- COLUNA DIREITA -->
+            <div>
+
+                <div class="card">
+                    <h2 style="margin-top:0;">Consultas do Dia</h2>
+
+                    <!-- CONSULTA 1 -->
+                    <div class="consulta-card">
+                        <div class="hora-consulta">09:00</div>
+                        <div class="status cancelado">Cancelado</div>
+
+                        <div class="info">
+                            🐾 <b>Bicho de estimação:</b> Rex <br>
+                            👤 <b>Dono:</b> João Silva <br>
+                            🩺 <b>Veterinário:</b> Dr. Carlos Mendes <br><br>
+                            <b>Observações:</b> Consulta de rotina
+                        </div>
+                    </div>
+
+                    <!-- CONSULTA 2 -->
+                    <div class="consulta-card">
+                        <div class="hora-consulta">10:30</div>
+                        <div class="status cancelado">Cancelado</div>
+
+                        <div class="info">
+                            🐾 <b>Bicho de estimação:</b> Mimi <br>
+                            👤 <b>Dono:</b> Maria Santos <br>
+                            🩺 <b>Veterinário:</b> Dra. Ana Paula <br><br>
+                            <b>Observações:</b> Vacinação anual
+                        </div>
+                    </div>
+
+                    <!-- CONSULTA 3 -->
+                    <div class="consulta-card">
+                        <div class="hora-consulta">11:00</div>
+                        <div class="status confirmado">Confirmado</div>
+
+                        <div class="info">
+                            🐾 <b>Bicho de estimação:</b> Thor <br>
+                            👤 <b>Dono:</b> Pedro Costa <br>
+                            🩺 <b>Veterinário:</b> Dr. Carlos Mendes <br><br>
+                            <b>Observações:</b> Retorno pós-cirurgia
+                        </div>
+                    </div>
+
+                    <!-- CONSULTA 4 -->
+                    <div class="consulta-card">
+                        <div class="hora-consulta">14:00</div>
+                        <div class="status cancelado">Cancelado</div>
+
+                        <div class="info">
+                            🐾 <b>Bicho de estimação:</b> Lua <br>
+                            👤 <b>Dono:</b> Ana Lima <br>
+                            🩺 <b>Veterinário:</b> Dra. Ana Paula <br><br>
+                            <b>Observações:</b> Exame de sangue
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+</body>
+
+</html>

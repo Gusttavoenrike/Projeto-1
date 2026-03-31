@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Playfair Display', serif;
+    background: #f4efec;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 700;
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+p.subtitle {
+    margin-left: 110px;
+    margin-top: 5px;
+    color: #555;
+}
+
+/* GRID PRINCIPAL */
+.container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 25px;
+    width: 93%;
+    margin: 20px auto;
+}
+
+/* Card padrão */
+.card {
+    background: white;
+    padding: 25px;
+    margin-left: 40px;
+    margin-top: 5px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.07);
+    transition: 0.2s;
+}
+/* Input de data */
+.date-input {
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Horários */
+.horarios-container {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.horario {
+    background: #ffe5cc;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.horario.ocupado {
+    background: #ffdddd;
+    color: #cc2222;
+}
+
+.horario:hover {
+    opacity: 0.7;
+}
+
+/* CONSULTAS DO DIA */
+.consulta-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    position: relative;
+    transition: 0.2s;
+}
+
+.consulta-card:hover {
+    border: 2px solid #f57c00;
+}
+
+.hora-consulta {
+    font-size: 22px;
+    font-weight: 700;
+    color: #f57c00;
+}
+
+.status {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.cancelado {
+    background: #ffdddd;
+    color: #cc2222;
+}
+
+.confirmado {
+    background: #ffe8c6;
+    color: #f57c00;
+}
+
+.info {
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Botão nova consulta */
+.btn-nova {
+    background: #f57c00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: absolute;
+    right: 40px;
+    top: 120px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+}
+
+.btn-nova:hover {
+    opacity: 0.8;
+}
+
