@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -25,16 +25,16 @@
         <h1>Controle Veterinário</h1>
       </div>
       <div class="meio">
-        <button>Não se trata de uma questão de...</button>
-        <button>Funcionalidades</button>
-        <button>Equipe</button>
-        <button>Conecte-se</button>
+        <button id="btninicio">inicio</button>
+        <button id="btnfuncionalidades">Funcionalidades</button>
+        <button id="btnbeneficios">Beneficios</button>
+        <button id="btncontato">Contato</button>
       </div>
-      <button class="fim">Painel de controle do Acesso</button>
+      <button class="fim" id="btnlogin">Painel de controle do Acesso</button>
     </header>
     <hr />
     <main>
-      <section class="parte1">
+      <section class="parte1" id="inicio">
         <div class="tela1">
           <div>
             <div class="começo">
@@ -55,8 +55,10 @@
               Centralize agendamentos, prontuários e controle de vacinas <br />
               em uma interface intuitiva e segura.
             </p>
-            <button class="btn1">Acessa Sistema</button>
-            <button class="btn2">Ver Funcionalidades</button>
+            <button class="btn1" id="btnAcessaSistema">Acessa Sistema</button>
+            <button class="btn2" id="btnVerFuncionalidades">
+              Ver Funcionalidades
+            </button>
           </div>
           <div class="começofoto">
             <video
@@ -90,7 +92,7 @@
         </div>
       </section>
       <hr />
-      <section class="parte2">
+      <section class="parte2" id="Funcionalidades">
         <div class="direito">
           <h1>
             Arquitetura de <br />
@@ -157,7 +159,7 @@
         </div>
       </section>
       <hr />
-      <section class="parte3">
+      <section class="parte3" id="beneficios">
         <div>
           <h1>
             Por que escolher o <br />
@@ -169,25 +171,28 @@
             no que realmente importa: o cuidado com os animais.
           </h2>
           <div class="flex">
-            <div class="fotos">
-              <div class="t1">
-                <img
-                  data-loc="client/src/components/WhySection.tsx:19"
-                  alt="Equipe veterinária com animais"
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663154205521/Tt63SRWnUvX8cmbxQ3vfcv/benefits-image-ajjGxPPR5naMN55pV3EGRP.webp"
-                />
-                <img src="../img/foto1.jpg" alt="" />
-              </div>
-              <div class="t1">
-                <img src="../img/foto2.jpg" alt="" />
-                <img src="../img/foto3.jpg" alt="" />
-              </div>
+            <div class="card">
+              <img src="../img/organizacão.jpg" alt="" />
+              <h3 class="sub">📊 Organização completa dos pets</h3>
+            </div>
+            <div class="card">
+              <img src="../img/praticidade.jpg" alt="" />
+              <h3 class="sub">⏱️ Praticidade no dia a dia</h3>
+            </div>
+            <div class="card">
+              <img src="../img/seguraça.jpg" alt="" />
+              <h3 class="sub">🔒 Segurança das informações</h3>
+            </div>
+
+            <div class="card">
+              <img src="../img/interface-intuitiva.jpg" alt="" />
+              <h3 class="sub">📱 Interface simples e intuitiva</h3>
             </div>
           </div>
         </div>
       </section>
       <hr />
-      <section class="parte4">
+      <section class="parte4" id="contato">
         <div class="conteiner-principal">
           <img src="../img/icone-coração-branco.png" alt="" />
           <h1>
@@ -200,8 +205,8 @@
             VetControl.
           </p>
           <div class="butoes">
-            <button class="btn4">Começar Agora</button>
-            <button class="btn5">Conheça a Equipe</button>
+            <button class="btn4" id="comeca">Começar Agora</button>
+            <button class="btn5" id="equipe">Conheça a Equipe</button>
           </div>
         </div>
       </section>
@@ -224,10 +229,7 @@
           </div>
           <p class="text-footer">
             O VetControl é uma plataforma moderna de gestão veterinária,<br />
-            desenvolvida para simplificar o controle de clínicas, <br />otimizar
-            processos e melhorar o cuidado com os animais por meio de uma
-            interface intuitiva,<br />
-            acessível e eficiente.
+            desenvolvida para simplificar o controle de clínicas.
           </p>
         </div>
         <div class="links-rapidos">
@@ -250,18 +252,34 @@
         </div>
         <div class="links-rapidos">
           <h2>Contato</h2>
-          <a href="">contato@Vet-Controll.br</a>
+          <a
+            href="mailto:contato@vetcontroll.com.br?subject=Contato%20Profissional%20-%20VetControll&body=Ol%C3%A1%20Milton%2C%0D%0A%0D%0AEscrevo%20em%20nome%20da%20VetControll%20para%20tratarmos%20sobre%20%5BASSUNTO%5D.%0D%0A%0D%0AFico%20no%20aguardo%20do%20seu%20retorno%20para%20seguirmos%20com%20os%20pr%C3%B3ximos%20passos.%0D%0A%0D%0AAtenciosamente%2C%0D%0A%5BSeu%20Nome%5D%0D%0AVetControll
+"
+            >contato@Vet-Controll.br</a
+          >
           <br />
-          <a href="">(11) 9999-9999</a>
+          <a href="tel:+5511999999999">(11) 9999-9999</a>
           <br />
-          <a href="">São Paulo, SP - Brasil</a>
+          <a href="https://maps.app.goo.gl/kdqXAJsaghRjRh6A6"
+            >São Paulo, SP - Brasil</a
+          >
           <br />
         </div>
       </div>
       <p class="direitos">© 2026 VetControll. Todos os direitos reservados.</p>
       <div class="chat-toggle" id="chatToggle" aria-label="Abrir chatbot">
-        <span>🐾</span>
+        <a href="https://github.com/Gusttavoenrike/Projeto-1" class="redes"
+          ><img src="../img/github.png" alt=""
+        /></a>
+        <a
+          href="mailto:contato@vetcontroll.com.br?subject=Contato%20Profissional%20-%20VetControll&body=Ol%C3%A1%20Milton%2C%0D%0A%0D%0AEscrevo%20em%20nome%20da%20VetControll%20para%20tratarmos%20sobre%20%5BASSUNTO%5D.%0D%0A%0D%0AFico%20no%20aguardo%20do%20seu%20retorno%20para%20seguirmos%20com%20os%20pr%C3%B3ximos%20passos.%0D%0A%0D%0AAtenciosamente%2C%0D%0A%5BSeu%20Nome%5D%0D%0AVetControll
+"
+          class="redes"
+          ><img src="../img/gmail.png" alt=""
+        /></a>
+        <a class="redes"><img src="../img/likedim.svg" alt="" /></a>
       </div>
     </footer>
+    <script src="../../backend/inicio.js"></script>
   </body>
 </html>

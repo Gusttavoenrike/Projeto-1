@@ -1,5 +1,5 @@
 footer {
-  padding: 1rem;
+  padding: 2rem;
   background: linear-gradient(180deg, #0c0a09, #1c1917);
   border-top: 1px solid rgba(255, 0, 255, 0.15);
   font-family: "Poppins", sans-serif;
@@ -69,8 +69,17 @@ color: #F9FAFB;
     transform: translateX(8px);
   }
 }
+.redes img {
+  width: 50px;
+  transition: 0.3s ease;
+}
 
+.redes img:hover {
+  transform: scale(1.2) translateY(-3px);
+}
 .direitos {
   color: white;
   margin: 1rem 0;
+font-size: 1.2rem;
+  text-align: center;
 }
