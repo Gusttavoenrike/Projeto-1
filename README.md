@@ -1,29 +1,36 @@
 # 🐾 Controle Veterinário
 
 <p align="center">
-  <strong>Sistema web para gestão moderna de clínicas veterinárias</strong><br>
-  Agendamentos, organização de atendimentos e controle administrativo em uma única plataforma.
+  <img src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-ff7a00?style=for-the-badge">
+  <img src="https://img.shields.io/badge/VERSÃO-1.0-black?style=for-the-badge">
+  <img src="https://img.shields.io/badge/PROJETO-WEB-orange?style=for-the-badge">
+</p>
+
+<p align="center">
+  <strong>🚀 Sistema inteligente para gestão de clínicas veterinárias</strong><br>
+  Desenvolvido para modernizar agendamentos, atendimentos e processos administrativos.
 </p>
 
 ---
 
-## 📌 Sobre o Projeto
+# 📌 Visão Geral
 
-O **Controle Veterinário** é uma aplicação desenvolvida para facilitar a rotina de clínicas veterinárias, oferecendo uma interface intuitiva, moderna e eficiente para o gerenciamento diário.
+O **Controle Veterinário** é uma plataforma web criada para facilitar a rotina de clínicas veterinárias, oferecendo organização, agilidade e praticidade no gerenciamento diário.
 
-A plataforma permite controlar consultas, visualizar horários disponíveis, organizar atendimentos e otimizar processos internos.
+O sistema centraliza informações importantes como consultas, horários disponíveis, dados de clientes e pets, tornando o atendimento mais eficiente.
 
 ---
 
-## 🚀 Funcionalidades
+# ✨ Principais Funcionalidades
 
 ✅ Sistema de Login e Cadastro  
 ✅ Painel Administrativo  
 ✅ Agendamento de Consultas  
-✅ Controle de Horários Disponíveis  
-✅ Status das Consultas  
+✅ Controle de Horários  
+✅ Status de Consultas  
 ✅ Interface Responsiva  
-✅ Navegação Simples e Moderna  
+✅ Navegação Moderna  
+✅ Gestão de Clientes e Pets  
 
 ---
 
@@ -32,7 +39,7 @@ A plataforma permite controlar consultas, visualizar horários disponíveis, org
 ## 🏠 Página Inicial
 
 <p align="center">
-  <img src="inicio.png" width="900">
+  <img src="inicio.png" width="100%">
 </p>
 
 ---
@@ -40,7 +47,7 @@ A plataforma permite controlar consultas, visualizar horários disponíveis, org
 ## 🔐 Tela de Login
 
 <p align="center">
-  <img src="login.png" width="900">
+  <img src="login.png" width="85%">
 </p>
 
 ---
@@ -48,44 +55,50 @@ A plataforma permite controlar consultas, visualizar horários disponíveis, org
 ## 📅 Painel de Consultas
 
 <p align="center">
-  <img src="painel.png" width="900">
+  <img src="painel.png" width="100%">
 </p>
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+# 🛠️ Tecnologias Utilizadas
 
 <p align="center">
 
-HTML5 • CSS3 • JavaScript • Git • GitHub
+![HTML5](https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript)
+![PHP](https://img.shields.io/badge/PHP-black?style=for-the-badge&logo=php)
+![MySQL](https://img.shields.io/badge/MySQL-black?style=for-the-badge&logo=mysql)
+![Git](https://img.shields.io/badge/Git-black?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
 
 </p>
 
 ---
 
-## 🎯 Objetivo
+# 🎯 Objetivo do Projeto
 
-Desenvolver uma solução digital moderna para clínicas veterinárias, tornando os processos internos mais organizados, rápidos e eficientes.
-
----
-
-## 👨‍💻 Equipe de Desenvolvimento
-
-- Clarinha 
-- Gugu  
-- Vinicinhos  
-- Victorzim  
+Criar uma solução digital moderna para clínicas veterinárias, melhorando processos internos, organização de consultas e experiência de atendimento ao cliente.
 
 ---
 
-## 📌 Status do Projeto
+# 👨‍💻 Equipe Oficial
 
-🚧 Em desenvolvimento
+| Integrante | Função | GitHub |
+|-----------|--------|--------|
+| Clara Santana | Back-end | Adicionar GitHub |
+| Gustavo Henrique | Back-end | https://github.com/Gusttavoenrike |
+| Vinícius Santos | Front-end / Banco de Dados | https://github.com/ViniSantosC |
+| Victor Correa | Front-end / Banco de Dados | Adicionar GitHub |
 
 ---
 
-## 🔗 Repositório
+# 📊 Estrutura do Sistema
 
-[GitHub - Projeto 1](https://github.com/Gusttavoenrike/Projeto-1)
-
----
+```bash
+Projeto-1/
+│── backend/
+│── front-end/
+│── database/
+│── assets/
+│── README.md
