@@ -9,11 +9,10 @@ body {
 .titulo-interessante {
     padding: 5% 10%;
   text-align: center;
-  background: linear-gradient(to right, #fef4e9, #f2ede7);
 }
 .titulo{
     margin: 0;
-    font-size: clamp(3rem, 6vw, 4.2rem);
+    font-size: clamp(6rem, 6vw, 4.2rem);
     font-weight: 700;
     letter-spacing: 0.6%;
     line-height: 1.2;
@@ -32,6 +31,7 @@ body {
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
+  margin-bottom: 200px;
 }
 .card {
   width: 390px;
@@ -86,6 +86,10 @@ display: flex;
   border: none;
   height: 1px;
   background: #eee;
+}
+
+.equipe1{
+background: linear-gradient(to bottom, rgb(247, 215, 166), rgba(0, 0, 255, 0));
 }
 
 /* ÍCONES */
